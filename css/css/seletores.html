@@ -6,7 +6,13 @@
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-        /* ... */
+        /* p ~ ol */
+        /* [feira*=sa] */
+        /* section >:nth-child(odd) */
+       section > span:nth-of-type(2){
+           color: #ff0;
+           background-color: #f77;
+       }
     </style>
 </head>
 
@@ -42,3 +48,16 @@
 </body>
 
 </html>
+
+
+<!-- Tipos de seletores-->
+<!-- Elementos, .class, #id, [atributo], :pseudo-class, ::pseudo-elementos -->
+
+
+
+<!-- Combinar Seletores
+    Div + p = adjacent sibling
+    Div + > p = child
+    Div ~ p = General Sibling
+    Div p = Descendant 
+-->
