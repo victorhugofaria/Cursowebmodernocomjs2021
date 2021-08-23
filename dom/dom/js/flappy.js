@@ -172,3 +172,4 @@ function FlappyBird() {
         },20)
     }
 }
+new FlappyBird().start()
