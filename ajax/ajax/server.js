@@ -24,7 +24,14 @@ app.post('/upload', (req, res)=>{
         if(err){
             return res.end('Ocorreu um erro.')
         }
-        res.end('Concluído co sucesso.')
+        res.end('Concluído com sucesso.')
+    })
+})
+
+app.post('/formulario', (req, res) =>{
+    res.send({
+        ...req.body,
+        id: 1
     })
 })
 
