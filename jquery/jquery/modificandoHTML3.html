@@ -15,14 +15,14 @@
     <script>
         
         $(document).ready(function(){
-            const pessoas = [
+            const alunos = [
                 { nome: 'Ana', nota: 9.1 },
                 { nome: 'Bianca', nota: 8.4 },
                 { nome: 'Carlos', nota: 7.6 },
                 { nome: 'Julia', nota: 9.7 }
             ]
             
-            const linhas = pessoas.map(aluno =>{
+            const linhas = alunos.map(aluno =>{
                 const tdNome = $('<td>').html(aluno.nome)
                 const tdNota = $('<td>').html(aluno.nota) 
                  return $('<tr>').append(tdNome).append(tdNota)      
